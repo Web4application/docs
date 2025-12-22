@@ -1,5 +1,5 @@
 # Mint Starter Kit
-
+ 
 ## Docs
 
 - [Claude Code setup](https://acme-83ff5188.mintlify.app/ai-tools/claude-code.md): Configure Claude Code for your documentation workflow
