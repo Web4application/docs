@@ -17,9 +17,9 @@ export const meta = {
 # httpbin.org API
 
 **Version:** `{meta.version}`  
-**Base URL:** `httpbin.org/`
+**Base URL:** `folder/text`
 
 A simple HTTP Request & Response Service.
 
 ```bash
-docker run -p 80:80 kennethreitz/httpbin
+docker run -p 80:80 web4application/gcpr.io
