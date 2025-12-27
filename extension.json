@@ -1,0 +1,18 @@
+"content_scripts": [
+    {
+    "matches": ["*://*.mozilla.org/*"],
+    "js": ["jquery.js", "my-content-script.js"],
+    "run_at": "document_idle"
+  },
+  {
+    "matches": ["*://*.mozilla.org/*"],
+    "css": ["my-css.css"],
+    "js": ["another-content-script.js", "yet-another-content-script.js"],
+    "run_at": "document_idle"
+  },
+  {
+    "matches": ["*://*.mozilla.org/*"],
+    "js": ["run-first.js"],
+    "run_at": "document_start"
+  }
+]
